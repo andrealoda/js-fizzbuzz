@@ -18,14 +18,30 @@
 // utilizziamo un ciclo for per stampare i numeri da 1 a 100
 
 for (i = 1; i <= 100; i++) {
-    console.log(i);
-}
+    // console.log(i);
+
 
 // definiamo i multipli di 3 (i % 3 == 0) ➡️ stampiamo Fizz
 
-// definiamo i multipli di 5 (i % 5 == 0) ➡️ stampiamo Buzz
+    if (i % 3 == 0) {
+        const i = 'Fizz';
+        console.log(i);
+    }
+
+    // definiamo i multipli di 5 (i % 5 == 0) ➡️ stampiamo Buzz
+
+    if (i % 5 == 0) {
+        const i = 'Buzz'; 
+        console.log(i);
+    }
 
 // definiamo una condizione che comprende entrambe le precedenti
 // (utlizziamo l'operatore logico &&, se è true allora stampiamo il numero i)
 // stampiamo ➡️ FizzBuzz
+    if (i % 3 == 0 && i % 5 == 0) {
+        const i = 'FizzBuzz';
+        console.log(i);
+        
+    }
 
+} // chiudiamo il ciclo for
