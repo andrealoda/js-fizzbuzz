@@ -13,16 +13,13 @@
 // scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 // proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
-
-
+//////////////////////////////////////////////////////////////////////////////
 
 // utilizziamo un ciclo for per stampare i numeri da 1 a 100
 
 for (i = 1; i <= 100; i++) {
     console.log(i);
 }
-
-
 
 // definiamo i multipli di 3 (i % 3 == 0) ➡️ stampiamo Fizz
 
@@ -31,3 +28,4 @@ for (i = 1; i <= 100; i++) {
 // definiamo una condizione che comprende entrambe le precedenti
 // (utlizziamo l'operatore logico &&, se è true allora stampiamo il numero i)
 // stampiamo ➡️ FizzBuzz
+
